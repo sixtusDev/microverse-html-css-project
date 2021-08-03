@@ -1,0 +1,39 @@
+body {
+  max-width: 500px;
+  margin: 60px auto 50px auto;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+select,
+fieldset,
+textarea {
+  margin-bottom: 30px;
+}
+fieldset input {
+  display: inline !important;
+}
+
+textarea {
+  width: 100%;
+}
